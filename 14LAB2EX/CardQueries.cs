@@ -22,6 +22,7 @@ namespace _14LAB2EX
             return result;
         }
 
+
         // Карты, со сроком действия больше 2025 с использованием методов расширения (Where)
         public static IEnumerable<BankCard> WhereQueryUsingExtensions(MyCollection<BankCard> collection)
         {
